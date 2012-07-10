@@ -5,6 +5,7 @@ The specified data you inputted to the form is displayed on the modal window.
 This is the jquery plugin that displays the specified data you inputted
 to the form.
 This is able not to display on the modal window like normal submit.
+This plugin requres style.css on same repository.
 
 for example
 -----------
@@ -21,7 +22,9 @@ $('input#preview').modalsubmit();
   submitfn: my_preview,
   closed: '[close window]'
 });
-
+```
+```html
+<link rel="stylesheet" href="style.css" media="all" />
 ....
 <form name="modalsubmit" method="post" action="foo/bar.cgi">
 ....
