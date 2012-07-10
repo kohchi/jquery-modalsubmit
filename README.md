@@ -17,7 +17,7 @@ var my_preview = function() {
 	fo.mode.value = "preview";
 	fo.submit();
 }
-$('input#preview').modalsubmit();
+$('input#preview').modalsubmit({
   left: 120,
   submitfn: my_preview,
   closed: '[close window]'
